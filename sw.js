@@ -1,7 +1,7 @@
 // Service worker de "Layout CT": guarda la app para usarla sin internet.
 // Estrategia: responde al instante con lo guardado y, en segundo plano, busca la versión nueva.
 // La versión nueva se ve la próxima vez que se abre la app.
-const CACHE = 'layoutct-v40-202611220630';
+const CACHE = 'layoutct-v41-202611250418';
 const FILES = ['./', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/apple-touch-icon.png'];
 
